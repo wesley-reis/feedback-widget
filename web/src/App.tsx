@@ -1,5 +1,5 @@
-function App() {
-  return <h1 class="text-2xl text-gray-500 font-medium" >Hello WRRDev</h1>
-}
+import Widget from "./components/Widget";
 
-export default App
+export function App() {
+  return <Widget />
+}
